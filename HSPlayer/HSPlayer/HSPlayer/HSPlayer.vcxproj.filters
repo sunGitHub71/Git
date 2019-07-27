@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{691ae381-3635-4e48-9700-ba6f08ffa596}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files\messagebox">
+      <UniqueIdentifier>{105f61de-a1fc-4683-9caa-219772f69861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\calendar">
+      <UniqueIdentifier>{97b5fe81-c95f-41b2-9f7b-7df42e8ada8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug\Release">
+      <UniqueIdentifier>{55923263-83a3-41b0-ac9d-ff4817a96e60}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{a6b21496-6d6d-4b45-a78e-5459f5bdec06}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\PlayListTest">
+      <UniqueIdentifier>{388272fc-1b2d-4ad4-96cf-7a252cebd4b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VideoWidget">
+      <UniqueIdentifier>{e94053fc-e772-4603-ad78-afd3d84e8abb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WindowsStretch">
+      <UniqueIdentifier>{269fd96a-b8ae-4835-856c-0ca330023366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\language">
+      <UniqueIdentifier>{25933219-7342-47ba-ba04-8f109609d637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\checkVideo">
+      <UniqueIdentifier>{91dd23cf-5332-4a67-8e85-4119bfa0a49a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hsplayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_hsplayer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_hsplayer.cpp">
+      <Filter>Generated Files\Debug\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_hsplayer.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TittleBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_titlebar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_titlebar.cpp">
+      <Filter>Generated Files\Debug\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Playlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_playlist.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_playlist.cpp">
+      <Filter>Generated Files\Debug\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoName.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_videoname.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_videoname.cpp">
+      <Filter>Generated Files\Debug\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="mainlayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mainlayout.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mainlayout.cpp">
+      <Filter>Generated Files\Debug\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_playctrl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_playctrl.cpp">
+      <Filter>Generated Files\Debug\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Popup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_popup.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_popup.cpp">
+      <Filter>Generated Files\Debug\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="PopupItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_popupitem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_popupitem.cpp">
+      <Filter>Generated Files\Debug\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LayoutItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_layoutitem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_layoutitem.cpp">
+      <Filter>Generated Files\Debug\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_playview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_playview.cpp">
+      <Filter>Generated Files\Debug\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTitleBar.cpp">
+      <Filter>Source Files\messagebox</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mytitlebar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mytitlebar.cpp">
+      <Filter>Generated Files\Debug\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseWindow.cpp">
+      <Filter>Source Files\messagebox</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_basewindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_basewindow.cpp">
+      <Filter>Generated Files\Debug\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="customizeMsgBox.cpp">
+      <Filter>Source Files\messagebox</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_customizemsgbox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_customizemsgbox.cpp">
+      <Filter>Generated Files\Debug\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="DateTimeEdit.cpp">
+      <Filter>Source Files\calendar</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_datetimeedit.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_datetimeedit.cpp">
+      <Filter>Generated Files\Debug\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicSetBox.cpp">
+      <Filter>Source Files\messagebox</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_basicsetbox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_basicsetbox.cpp">
+      <Filter>Generated Files\Debug\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CusLineEdit.cpp">
+      <Filter>Source Files\messagebox</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_cuslineedit.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_cuslineedit.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoWidget.cpp">
+      <Filter>Source Files\VideoWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_videowidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_videowidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CusButton.cpp">
+      <Filter>Source Files\messagebox</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_cusbutton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_cusbutton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayListModel.cpp">
+      <Filter>Source Files\PlayListTest</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_playlistmodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_playlistmodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="StretchWnd.cpp">
+      <Filter>Source Files\WindowsStretch</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_stretchwnd.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_stretchwnd.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutMsgBox.cpp">
+      <Filter>Source Files\messagebox</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_aboutmsgbox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_aboutmsgbox.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenUrl.cpp">
+      <Filter>Source Files\messagebox</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_openurl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_openurl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Language.cpp">
+      <Filter>Source Files\language</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_language.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_language.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="lanItem.cpp">
+      <Filter>Source Files\language</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_lanitem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_lanitem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckVideoWidget.cpp">
+      <Filter>Source Files\checkVideo</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CheckVideoWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CheckVideoWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckMD5Thread.cpp">
+      <Filter>Source Files\checkVideo</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CheckMD5Thread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CheckMD5Thread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="hsplayer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hsplayer.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hsplayer.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="titlebar.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="playlist.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="videoname.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainlayout.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainlayout.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="playctrl.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="popup.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="popupitem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="layoutitem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="playview.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mytitlebar.h">
+      <Filter>Source Files\messagebox</Filter>
+    </CustomBuild>
+    <CustomBuild Include="basewindow.h">
+      <Filter>Source Files\messagebox</Filter>
+    </CustomBuild>
+    <CustomBuild Include="customizemsgbox.h">
+      <Filter>Source Files\messagebox</Filter>
+    </CustomBuild>
+    <CustomBuild Include="datetimeedit.h">
+      <Filter>Source Files\calendar</Filter>
+    </CustomBuild>
+    <CustomBuild Include="basicsetbox.h">
+      <Filter>Source Files\messagebox</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cuslineedit.h">
+      <Filter>Source Files\messagebox</Filter>
+    </CustomBuild>
+    <CustomBuild Include="videowidget.h">
+      <Filter>Source Files\VideoWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cusbutton.h">
+      <Filter>Source Files\messagebox</Filter>
+    </CustomBuild>
+    <CustomBuild Include="playlistmodel.h">
+      <Filter>Source Files\PlayListTest</Filter>
+    </CustomBuild>
+    <CustomBuild Include="stretchwnd.h">
+      <Filter>Source Files\WindowsStretch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="aboutmsgbox.h">
+      <Filter>Source Files\messagebox</Filter>
+    </CustomBuild>
+    <CustomBuild Include="openurl.h">
+      <Filter>Source Files\messagebox</Filter>
+    </CustomBuild>
+    <CustomBuild Include="language.h">
+      <Filter>Source Files\language</Filter>
+    </CustomBuild>
+    <CustomBuild Include="lanitem.h">
+      <Filter>Source Files\language</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CheckVideoWidget.h">
+      <Filter>Source Files\checkVideo</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CheckMD5Thread.h">
+      <Filter>Source Files\checkVideo</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_hsplayer.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_mainlayout.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_tr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="basicSetItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mainicon_ico.ico" />
+    <None Include="hsplayer_zh_CN.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="hsplayer_en_US.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HSPlayer.rc" />
+  </ItemGroup>
+</Project>
